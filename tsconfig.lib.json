@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "paths": {
+      "@extensions": [
+        "./src"
+      ],
+      "@extensions/*": [
+        "./src/*"
+      ],
+      "sendbix-base": [
+        "../sendbix-base"
+      ],
+      "sendbix-builder": [
+        "../sendbix-builder"
+      ]
+    }
+  }
+}
