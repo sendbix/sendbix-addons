@@ -100,6 +100,5 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-final-form": "^6.5.7"
-  },
-  "gitHead": "bb5757eb3146f55c31d4354f1480939c3af8efe1"
+  }
 }
